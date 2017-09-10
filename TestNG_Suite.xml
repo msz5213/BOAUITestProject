@@ -1,0 +1,18 @@
+<test name="BOAUITestProject" preserve-order="false">
+  <classes>
+ 
+    <class name="TestCases.User_AbleTo_Validate_SavingsLink2">
+      <methods>
+        <include name="user_AbleTo_Validate_SavingsLink2()" />
+      </methods>
+    </class>
+ 	
+ 	<class name="TestCases.User_AbleTo_Validate_CheckingLink">
+      <methods>
+        <exclude name="user_AbleTo_Validate_CheckingLink()" />
+      </methods>
+    </class>
+    
+ 
+  </classes>
+</test>
