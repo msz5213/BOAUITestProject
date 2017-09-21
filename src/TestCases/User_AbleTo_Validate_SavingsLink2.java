@@ -1,7 +1,6 @@
 package TestCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class User_AbleTo_Validate_SavingsLink2 extends BaseTest {

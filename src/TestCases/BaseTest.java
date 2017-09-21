@@ -12,16 +12,16 @@ public class BaseTest {
 	
  @BeforeClass
  public void beforeClass(){
-	 String baseDir = System.getProperty("user.dir");
+	    String baseDir = System.getProperty("user.dir");
 		String chromePath = baseDir + "\\driverServer\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", chromePath);
 		
-		driver = new ChromeDriver();
+	    driver = new ChromeDriver();
 
  }
  @BeforeMethod
  public void beforeMethod(){
-	 driver.get("https://www.bankofamerica.com/");
+	    driver.get("https://www.bankofamerica.com/");
 		driver.manage().window().maximize();
 		
 		String titleValidation = driver.getTitle();
@@ -35,7 +35,7 @@ public class BaseTest {
  @AfterClass
  public void afterClass(){
 	 driver.close();
-		driver.quit();
+	 driver.quit();
  }
 
 
