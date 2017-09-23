@@ -21,6 +21,7 @@ public class User_AbleTo_Validate_SavingsLink2 extends BaseTest {
 		System.out.println(headerOfZipcode.isDisplayed());
 		
 		Thread.sleep(2000);
+		//Setting up github
 
 		
 		
