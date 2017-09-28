@@ -1,18 +1,15 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-
-<test name="BOAUITestProjectNew"  verbose="1">
+<test name="BOAUITestProject" preserve-order="false">
   <classes>
  
-    <class name="TestCases.User_AbleTo_Validate_CheckingLink">
+    <class name="TestCases.User_AbleTo_Validate_SavingsLink2">
       <methods>
-        <include name="user_AbleTo_Validate_CheckingLink()" />
+        <include name="user_AbleTo_Validate_SavingsLink2()" />
       </methods>
     </class>
  
-    <class name="TestCases.User_AbleTo_Validate_SavingsLink2" />
+    <class name="TestCases.User_AbleTo_Validate_CheckingLink">
      <methods>
-        <include name="user_AbleTo_Validate_SavingsLink2()" />
+        <exclude name="user_AbleTo_Validate_CheckingLink()" /> 
       </methods>
     </class>
  
